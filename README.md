@@ -17,7 +17,7 @@ The user should be able to enter a quantity for each product
 
 Instructions
 
-1 on your device, open DreamChaser Cakes Shop website => https://donnruethai.github.io/shopping-cart-exercise/
+1 on your device, open DreamChaser Cakes Shop website => https://donruethai.github.io/ShoppingCart/
 
 2 You will see the products available
 
