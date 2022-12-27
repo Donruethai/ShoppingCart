@@ -26,7 +26,7 @@ header {
  }
 
  /* pseudo classes */
-a:link { color: rgb(239, 63, 127); } /* not visited */
+a:link { color: rgb(249, 9, 157); } /* not visited */
 a:visited { color: #f330d6; } /* visited */
 a:hover { color: pink; } /* hover over */
 
