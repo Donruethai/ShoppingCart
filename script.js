@@ -98,7 +98,7 @@ function orderDetail() {
       const { title, quantity, price, cost} = items;
 
       // Update the total price by adding the price of the current item
-      total += price;
+      total += cost;
       
       document.getElementById("total").innerHTML = "$ " + total + ".00";
 
