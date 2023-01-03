@@ -17,9 +17,11 @@ body {
 header {
   color: #e455c3;  
   padding: 0.5em;
-  background-color: #fff;
-  border: 5px solid rgb(171, 223, 244);
-  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(212, 237, 245);
+  /*border: 5px solid rgb(171, 223, 244);*/
+  /*border-radius: 15px;*/
   font-weight: bold;
   font-size: 220%;
   margin: 0 auto;  
@@ -35,6 +37,13 @@ nav {
   background-color: white;
   margin: 0 auto;
   padding: 1em;
+}
+
+table, th, td{
+  border: 1px solid lightblue;
+  border-collapse: collapse;
+  padding: 1em;
+  
 }
 
 #bakery {

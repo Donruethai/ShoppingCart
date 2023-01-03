@@ -53,7 +53,7 @@ bakeryElement.innerHTML = products
       <div class='bottom-img'>
         <p>${title}</p>
         <h2>$ ${price}.00</h2>
-        <input class='amount' type="number" min="1" >
+        <input class='amount' type="number" min="1" value="1">
         <button onclick='addToOrder(${i++})'>Add to cart</button>
       </div>
     </div>
