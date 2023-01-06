@@ -1,17 +1,9 @@
 *{
-  margin: 0;
-  padding: 0;
+  /*margin: 0;*/
+  /*padding: 0;*/
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;  
 }
 
 header {
@@ -23,70 +15,85 @@ header {
   /*border: 5px solid rgb(171, 223, 244);*/
   /*border-radius: 15px;*/
   font-weight: bold;
-  font-size: 220%;
+  font-size: 300%;
   margin: 0 auto;  
  }
 
  /* pseudo classes */
-a:link { color: rgb(249, 9, 157); } /* not visited */
-a:visited { color: #f330d6; } /* visited */
-a:hover { color: pink; } /* hover over */
+ a:link { color: rgb(249, 9, 157); } /* not visited */
+ a:visited { color: #f330d6; } /* visited */
+ a:hover { color: pink; } /* hover over */
+ 
+ nav {
+   background-color: white;
+   margin: 0 auto;
+   padding: 2em;
+   text-align: center;
+   font-size: medium;
+ }
 
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-nav {
-  background-color: white;
-  margin: 0 auto;
-  padding: 1em;
+#bakery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  justify-content: center; 
+
+}
+
+.images {
+  max-width: 70%;
+  max-height: 70%;
+  
+}
+
+/*.bottom-img {
+  text-align: center; 
+}*/
+
+.order-details {
+  display: flex;
+  justify-content: space-evenly;
+  /*margin: 20px 0px;
+  padding: 10px 0px;*/
+  border-bottom: 3px solid rgb(204, 29, 143);
+
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  /*background-color: white;*/
+  /*margin: 10px 10px;*/
+}
+
+.bottom {  
+  display: flex;
+  justify-content: space-evenly;
+  /*padding: 10px 0px;*/
+  border-top: 3px solid rgb(204, 29, 143);
+}
+
+form {  
+  /*display: flex;
+  flex-direction: column;*/
+  margin-top: 1em;
+  padding: 10px 30px;
+  border: 3px solid rgb(204, 29, 143);
+}
+
+label {
+  display: block;
 }
 
 table, th, td{
   border: 1px solid lightblue;
   border-collapse: collapse;
   padding: 1em;
-  
-}
-
-#bakery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  max-width: 850px;
-}
-
-.images {
-  max-width: 80%;
-  max-height: 80%;
-  padding: 10px;  
-}
-
-.amount {
-  width: 100px;
-  height: 20px;
-  margin-right: 5px;
-}
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: white;
-  border-radius: 3px;
-  margin: 10px 10px;
-}
-
-.order-details {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0px;
-  padding: 10px 0px;
-  border-bottom: 2px solid rgb(204, 29, 143);
-
-}
-
-.bottom {  
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0px;
-  border-top: 2px solid rgb(204, 29, 143);
 }
